@@ -49,7 +49,7 @@ $(document).ready(function(){
         loop: true
     });
     var typed = new Typed(".typing-3", {
-        strings: ["Membership", "Exclusive Event Slot", "Paid Slot", "And Many More..."],
+        strings: ["", "", "", ""],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
