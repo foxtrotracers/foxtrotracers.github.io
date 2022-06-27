@@ -49,11 +49,7 @@ $(document).ready(function(){
         loop: true
     });
     var typed = new Typed(".typing-3", {
-<<<<<<< HEAD
         strings: ["Work Experience", "Learning", "Experience for Future", "And Many More..."],
-=======
-        strings: ["", "", "", ""],
->>>>>>> 619592445e0c799b77d758cae8c2faa880a0aa4e
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
