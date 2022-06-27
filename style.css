@@ -309,7 +309,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what we do";
+    content: "What We Do?";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
