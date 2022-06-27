@@ -28,8 +28,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#Career" class="menu-btn">Career</a></li>
+                <li><a href="#teams" class="menu-btn">Working Team</a></li>
+                <li><a href="#contact" class="menu-btn">Contact us</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -61,7 +62,7 @@
                     <p>Comming Soon.</p>
                     <a href="">Whatsapp</a>
                     <a href="https://www.instagram.com/foxtrot_racers/" target ="_blank" rel="noopener">Instagram</a>
-                    <a href="">YouTube</a>
+                    <a href="https://www.youtube.com/channel/UCSGNQx_Qs6cwt9f1uz1Epxg" target ="_blank" rel="noopener">YouTube</a>
                 </div>
             </div>
         </div>
@@ -132,9 +133,9 @@
                     <p>What we do will soon update <br> 1. Comming soon <br>2. Comming soon<br>3. Comming soon<br>4. Comming soon<br>5. Comming soon<br>6. Comming soon <br>7. Comming soon.... </p>
                     <a href="">WhatsApp</a>
                     <a href="https://www.instagram.com/foxtrot_racers/" target ="_blank" rel="noopener"> Instagram</a>
-                    <a href="">YouTube</a>
+                    <a href="https://www.youtube.com/channel/UCSGNQx_Qs6cwt9f1uz1Epxg" target ="_blank" rel="noopener">YouTube</a>
                 </div>
-                <div class="column right">
+                <div class="column right"> 
                     <div class="bars">
                         <div class="info">
                             <span>Family </span>
@@ -164,17 +165,16 @@
     </section>
 
     <!-- fffffff section start -->
-    <section class="about about1" id="shop">
+    <section class="about about1" id="Career">
         <div class="max-width">
-            <h2 class="title">Shop</h2>
+            <h2 class="title">Career</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="shop-158317_960_720.webp" alt="">
+                    <img src="carrier 2.jpeg" alt="TEAM PIC">
                 </div>
                 <div class="column right">
-                    <div class="text">INDBULLS Shop Is Live <span class="typing-3"></span></div>
-                    <p>🧺 If you wanna brush your skills and want membership in our Performance scrims then </p>
-                    <a href="#">Buy Now</a>
+                    <div class="text"> What We Provide You - <span class="typing-3"></span></div>
+                    <p> Comming soon </p>
                 </div>
             </div>
         </div>
@@ -183,13 +183,13 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">Your Management teams</h2>
+            <h2 class="title">Foxtrot Head team</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="images/" alt="">
+                        <img src="images/pratyus pic.jpeg" alt="">
                         <div class="text"></div>
-                        <p></p>
+                        <p>Name-Pratyus Kundu <br> Head- IT & Documentation <br> Info- Hard working </p>
                     </div>
                 </div>
                 <div class="card">
@@ -251,7 +251,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">Comming Soon</div>
+                                <div class="sub-title">foxtrotracers2022@gmail.com</div>
                             </div>
                         </div>
                     </div>
@@ -266,15 +266,19 @@
                             <div class="field email">
                                 <input type="email" placeholder="Email" required name="Email">
                             </div>
+                            
+                        </div>
+                        <div class="field Whatsapp Number">
+                            <input type="number" placeholder="Whatsapp Number" required name="Whatsapp number">
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required name="Subject">
+                            <input type="text" placeholder="Your specialites" required name="Your specialites">
                         </div>
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required name="Message"></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit" input type="submit" value="submit" name="submit">Send message</button>
+                            <button type="submit" input type="submit" value="submit" name="submit">Click Here to Join</button>
                         </div>
                     </form>
                 </div>
@@ -287,13 +291,13 @@
         <span><a href="#">Team Foxtrot</a> | <span class="far fa-copyright"></span> 2020-2022 All rights reserved by Pratyus Kundu</span>
     </footer>
     <script>
-        const scriptURL ='https://script.google.com/macros/s/AKfycbx1ZQrOIPrqaSiTP2NxHmoZqbVb6pSoz_tLmwCQoymZpc-9sW7cXwqt5VjZr1uqeCtv8g/exec'
+        const scriptURL ='https://script.google.com/macros/s/AKfycby3-1KOxjkoMs1cfRxOPOLwope4h8G3Et9BAHblScQvffKyBjgW7r-i0sw7HzElCaoE/exec'
         const form = document.forms['google-sheet']
       
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .then(response => alert("Thanks for applying..! We Will Contact You Soon..."))
             .catch(error => console.error('Error!', error.message))
         })
     </script>
